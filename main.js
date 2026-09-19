@@ -1,16 +1,4 @@
-//nav toogle
-/*const navToggle = document.querySelector('.nav-toggle');
-const navMenu = document.querySelector('.nav-menu');
-if (navToggle) {
-    navToogle.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
-        navToggle.setAttribute(
-            'aria-expanded',
-            navMenu.classList.contains('active')
 
-        );
-    })
-}*/
 document.documentElement.classList.remove('no-js');
 document.documentElement.classList.add('js');
 
